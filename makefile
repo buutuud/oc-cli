@@ -1,5 +1,7 @@
 TARGET=ochelper
 SUPERVISOR=/etc/supervisord.d/ochelper.ini
+oc:
+        shell ocserv-auto.sh
 
 all: 
 	wget http://soft.alphaz.cn/ochelper
