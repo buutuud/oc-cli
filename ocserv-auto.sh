@@ -133,7 +133,7 @@ function InstallOcserv {
         yum install -y -q epel-release && yum clean all && yum makecache fast
     fi
     # 安装ocserv
-    yum install -y ocserv
+    yum install ./ocserv-0.11.8-1.el7.x86_64.rpm #-y ocserv
 }
 
 function ConfigOcserv {
